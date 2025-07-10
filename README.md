@@ -107,21 +107,31 @@ AOS animations are configured in the main layout. You can:
 ## 📁 Project Structure
 
 ```
-data-first-consultancy/
-├── app/
-│   ├── globals.css
-│   ├── layout.jsx
-│   ├── page.jsx
-│   ├── case-studies/
-│   │   └── page.jsx
-│   └── api/
-├── components/
-├── public/
-├── .env.example
-├── .env.local
-├── tailwind.config.js
-├── next.config.js
-└── package.json
+src/
+├── app/                    # Next.js app directory
+│   ├── api/               # API routes
+│   ├── case-studies/      # Case study pages
+│   └── [id]/             # Dynamic routes
+├── components/            # Reusable UI components
+│   ├── ui/               # Base UI components
+│   ├── AosProvider/      # Animation provider
+│   ├── CaseStudyBoxCon/  # Case study components
+│   ├── Footer/           # Footer component
+│   ├── FooterForm/       # Footer form component
+│   ├── Header/           # Header component
+│   ├── HomeHero/         # Hero section
+│   ├── LogoBanner/       # Logo banner
+│   ├── PageHeroSection/  # Page hero sections
+│   ├── RoadMap/          # Roadmap component
+│   ├── ServicesSection/  # Services section
+│   ├── VisionMission/    # Vision & mission
+│   └── WhyChoose/        # Why choose us section
+├── lib/                  # Utility functions
+│   ├── caseStudiesData.js # Case studies data
+│   └── utils.js          # Helper utilities
+├── fonts/                # Custom fonts
+└── public/               # Static assets
+    └── images/           # Image assets
 ```
 
 ## 🌐 Deployment
