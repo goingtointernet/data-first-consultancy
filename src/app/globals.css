@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --mainColor: #5BA8A0;
+  --mainLightColor: #8AE9DF;
+  --mainBgColor: #ffffff;
+  --secondaryBgColor: #e9e9e9;
+  --textColor: #333333;
+  --headingColor: #222222;
+  --paragraphColor: #555555;
+  --borderColor: #e4e4e4;
+  --poppinsFont: "poppins";
+}
+
+.dark {
+  --background: #0C0C0C;
+  --foreground: #ffffff;
+  --mainColor: #5BA8A0;
+  --mainLightColor: #8AE9DF;
+  --mainBgColor: #0C0C0C;
+  --secondaryBgColor: #171717;
+  --textColor: #ffffff;
+  --headingColor: #ffffff;
+  --paragraphColor: #C0C0C0;
+  --borderColor: #ffffff2d;
+  --poppinsFont: "poppins";
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family:'poppins';
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-vezla) !important;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
