@@ -8,7 +8,7 @@ const CaseStudies = () => {
   return (
     <main>
       <article>
-        <PageHeroSection title={"Case Study"}/>
+        <PageHeroSection title={"Case Study"} subheading={"See How Our Work Transformed Businesses Like Yours"} img={'/images/case-study-bg.jpg'}/>
         <CaseStudyBoxCon/>
         <FooterForm />
         <Footer />

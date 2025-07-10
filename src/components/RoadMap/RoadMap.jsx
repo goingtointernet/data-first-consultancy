@@ -76,8 +76,8 @@ const RoadMap = () => {
                                 {item?.icon}
                             </div>
                             <div>
-                                <h4>{item?.title}</h4>
-                                <p>{item?.description}</p>
+                                <h4 className='text-textColor'>{item?.title}</h4>
+                                <p className='text-paragraphColor'>{item?.description}</p>
                             </div>
                             </div>
                         ))}
