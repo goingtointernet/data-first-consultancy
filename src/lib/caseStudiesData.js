@@ -27,6 +27,8 @@ const caseStudiesData = [
   {
     id: 'multi-cloud-data-platform-2',
     title: 'Multi-Cloud Data Platform',
+    bannerTitle:"Multi-Cloud Data Platform",
+    bannerSubheading:"Building a Multi-Geo, Multi-Cloud Data Platform",
     image: '/images/c2.jpg',
     goal: 'Faced with increasing regulatory pressure, fragmented legacy systems, and the need for near real-time insights...',
     details: [
@@ -49,6 +51,8 @@ const caseStudiesData = [
   {
     id: 'multi-cloud-data-platform-3',
     title: 'Multi-Cloud Data Platform',
+    bannerTitle:"Building a Multi-Geo 3",
+    bannerSubheading:"Building a Multi-Geo, Multi-Cloud Data Platform",
     image: '/images/c3.jpg',
     goal: 'Faced with increasing regulatory pressure, fragmented legacy systems, and the need for near real-time insights...',
     details: [
@@ -68,8 +72,8 @@ const caseStudiesData = [
       },
     ],
   },
-  // Add more case studies here
 ];
+  // Add more case studies here
 
 
 export default caseStudiesData;

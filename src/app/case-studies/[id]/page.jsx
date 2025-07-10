@@ -20,9 +20,9 @@ export default async function Page({ params }) {
   return (
     <main>
       <PageHeroSection
-        title={caseStudy?.title}
-        subheading="See How Our Work Transformed Businesses Like Yours"
-        img="/images/case-study-bg.jpg"
+        title={caseStudy?.bannerTitle}
+        subheading={caseStudy?.bannerSubheading}
+        img={caseStudy?.image}
       />
 
        <div className='flex flex-col max-w-[1100px] w-[90%] mx-auto py-[100px]'>
